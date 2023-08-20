@@ -1,5 +1,5 @@
 ## Description
-This is a LAMMPS dump file parser/manipulator. 
+This is a LAMMPS dump file parser/manipulator. Its main purpose is to manipulate LAMMPS dump files that have multiple timesteps.
 
 ## Files 
 - 'dump_reader': Package for parsing and manipulating LAMMPS dump files
@@ -105,4 +105,3 @@ Joshua Kempfert (joshuakempfert@gmail.com)
 - https://www.ovito.org/
 - https://www.ctcms.nist.gov/potentials/atomman/
 - https://docs.lammps.org/Manual.html
-
