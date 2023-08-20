@@ -1,5 +1,5 @@
 ## Description
-This is a LAMMPS dump file parser/manipulator.
+This is a LAMMPS dump file parser/manipulator. 
 
 ## Files 
 - 'dump_reader': Package for parsing and manipulating LAMMPS dump files
