@@ -19,7 +19,7 @@ The documentation here is not exhaustive, but rather an overview of the most com
 `dump_reader` implements parsing and manipulation of LAMMPS dump files through its `Snapshot` and `Snapshots` objects. `dump_reader` is mainly intended for users wishing to conduct custom programmatic analyses on LAMMPS dump files. The `Snapshot` and `Snapshots` objects should be your only point of interface with the module, as shown. This module is implemented to minimize RAM usage so that large dump files can be easily manipulated. Per-atom data is only loaded into memory when it is needed.
 
 ```python
-from lammps_utility.dump_reader import Snapshot, Snapshots
+from dump_reader import Snapshot, Snapshots
 ```
 
 A `Snapshot` object, as its name suggests, is a snapshot of the system and its atoms. A `Snapshots` object is a container of `Snapshot` objects. A `Snapshots` object has a fixed collection of `Snapshot` objects, which it always owns. To create a `Snapshots` object from a LAMMPS dump file, call the `from_dump` constructor:
